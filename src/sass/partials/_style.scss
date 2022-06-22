@@ -7,6 +7,8 @@
 body {
 	background-color: base.$main-bg;
 	color: base.$white;
+	display: flex;
+	height: 100%;
 	font-family: 'Outfit', sans-serif;
 	font-size: 18px;
 	padding: 60px 30px;
@@ -158,4 +160,10 @@ a:hover {
 .attribution {
 	font-size: 14px;
 	text-align: center;
+}
+
+@media only screen and (min-width:1360px) {
+	html {
+		height: 100%;
+	}
 }

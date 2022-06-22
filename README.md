@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/ive-sass-flexbox-bem-a4MK9258qy)
 - Live Site URL: [Site](https://aevim.github.io/nft-preview-card-component-main/)
 
 ## My process
