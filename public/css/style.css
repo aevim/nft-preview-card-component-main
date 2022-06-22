@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217deg, 54%, 11%);
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  padding: 60px 30px;
+}
+
+hr {
+  border-top: 1px dotted hsl(215deg, 32%, 27%);
+  opacity: 0.4;
+  margin: 18px 0;
+}
+
+a:visited {
+  color: hsl(178deg, 100%, 50%);
+}
+
+a:link {
+  color: hsl(0deg, 0%, 100%);
+}
+
+a:hover {
+  color: red;
+}
+
+.nft {
+  background-color: hsl(216deg, 50%, 16%);
+  box-shadow: 0 20px 5px 15px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 20px 10px 15px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 20px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin: auto;
+  max-width: 375px;
+  padding: 24px;
+}
+.nft__ethereum {
+  display: flex;
+  justify-content: space-between;
+}
+.nft__author {
+  display: flex;
+}
+
+.equilibrium {
+  position: relative;
+  margin-bottom: 24px;
+}
+.equilibrium:nth-child(1):hover .shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 3px 3px 1000px 0 hsl(178deg, 100%, 50%);
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+}
+.equilibrium:hover {
+  cursor: pointer;
+}
+.equilibrium:hover img {
+  visibility: visible;
+}
+.equilibrium__image {
+  max-width: 100%;
+  border-radius: 14px;
+}
+.equilibrium__view {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about__header {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.about__header:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}
+.about__paragraph {
+  color: hsl(215deg, 51%, 70%);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.ethereum {
+  display: flex;
+}
+.ethereum__icon {
+  margin-right: 8px;
+}
+.ethereum__value {
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 600;
+}
+
+.time {
+  align-self: flex-end;
+  display: flex;
+}
+.time__clock {
+  margin-right: 8px;
+}
+.time__days {
+  color: hsl(215deg, 51%, 70%);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.author {
+  margin-bottom: 24px;
+}
+.author__avatar {
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 1px;
+  margin-right: 16px;
+  width: 32px;
+}
+.author__name {
+  align-self: center;
+  color: hsl(215deg, 51%, 70%);
+  font-weight: 300;
+}
+.author__name__bold {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 400;
+}
+.author__name__bold:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

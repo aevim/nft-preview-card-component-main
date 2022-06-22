@@ -1,0 +1,14 @@
+{
+  "name": "nft-preview-card-component-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass -w src/sass/main.scss:public/css/style.css"
+  },
+  "repository": "https://github.com/aevim/nft-preview-card-component-main.git",
+  "author": "aevim <aedigo12@protonmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.52.3"
+  }
+}
